@@ -24,6 +24,9 @@
         "hero",
         "about us"
       ]
+    },
+    "subTitle": {
+      "type": "string"
     }
   }
 }
