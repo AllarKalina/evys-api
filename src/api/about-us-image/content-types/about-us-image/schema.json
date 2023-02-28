@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-us-image",
     "pluralName": "about-us-images",
-    "displayName": "About us image"
+    "displayName": "About us image",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,23 @@
   "pluginOptions": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "location": {
+      "type": "enumeration",
+      "enum": [
+        "large_landscape",
+        "small_landscape",
+        "portrait"
+      ]
     }
   }
 }
